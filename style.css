@@ -1,0 +1,92 @@
+body {
+  height: 100%;
+}
+main{
+  display: flex;
+  flex-direction: row;
+  background-color: darkgrey;
+  height: 100%;
+  width: 100%;
+  border: 1px solid green;
+}
+header {
+  text-align: center;
+  background-color: lightslategray;
+  height: 3em;
+  border: 1px solid green;
+  margin: 1em;
+}
+
+nav {
+  width: 90%;
+  background-color: blue;
+  border: 1px solid green;
+  margin: 1em;
+}
+article {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  border: 1px solid yellow;
+  background-color: aqua;
+  margin: 2em;
+  text-align: justify;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  border: 1px solid yellow;
+  background-color: red;
+  margin: 1em;
+}
+
+aside {
+  background-color: blueviolet;
+  align-self: left; 
+  width: 30%;
+  border: 1px solid green;
+  margin: 1em;
+}
+
+footer {
+  background-color: blueviolet;
+  text-align: center;
+  padding: 0.5em;
+  border: 1px solid green;
+  margin: 1em;
+}
+#footerBody {
+  display: block;
+  background-color: darkolivegreen;
+
+}
+
+#inicio{
+  display: inline-block;
+  width: 100%;
+  padding: 0%;
+  margin: 0.5em 0 0.5em 0;
+}
+
+#secAside{
+  width: 90%;
+  height: 95%;
+
+}
+#navAside{
+  height: 90%;
+}
+#asideAbajo{
+  display: inline-flex;
+  align-self: flex-end;
+  height: 300px;
+}
+p {
+  margin: 2em;
+}
+#pAbajo{
+  display: inline-flex;
+  align-self: flex-start;
+}
