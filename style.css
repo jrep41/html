@@ -78,15 +78,22 @@ footer {
 #navAside{
   height: 90%;
 }
-#asideAbajo{
-  display: inline-flex;
-  align-self: flex-end;
-  height: 300px;
+#mainAa{
+  display: flex;
+  
+  margin: auto;
+  width: 90%;
 }
+ #pAbajo{
+  width: 60%;
+  background-color: brown;
+} 
+
+#asideAbajo{
+  width: 40%;
+  height: 80%;
+} 
+
 p {
   margin: 2em;
-}
-#pAbajo{
-  display: inline-flex;
-  align-self: flex-start;
 }
