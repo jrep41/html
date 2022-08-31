@@ -1,7 +1,8 @@
 body {
   height: 100%;
 }
-main{
+
+main {
   display: flex;
   flex-direction: row;
   background-color: darkgrey;
@@ -9,6 +10,7 @@ main{
   width: 100%;
   border: 1px solid green;
 }
+
 header {
   text-align: center;
   background-color: lightslategray;
@@ -23,6 +25,7 @@ nav {
   border: 1px solid green;
   margin: 1em;
 }
+
 article {
   display: flex;
   flex-direction: column;
@@ -44,7 +47,7 @@ section {
 
 aside {
   background-color: blueviolet;
-  align-self: left; 
+  align-self: left;
   width: 30%;
   border: 1px solid green;
   margin: 1em;
@@ -57,42 +60,46 @@ footer {
   border: 1px solid green;
   margin: 1em;
 }
+
 #footerBody {
   display: block;
   background-color: darkolivegreen;
 
 }
 
-#inicio{
+#inicio {
   display: inline-block;
   width: 100%;
   padding: 0%;
   margin: 0.5em 0 0.5em 0;
 }
 
-#secAside{
+#secAside {
   width: 90%;
   height: 95%;
 
 }
-#navAside{
+
+#navAside {
   height: 90%;
 }
-#mainAa{
+
+#mainAa {
   display: flex;
-  
+
   margin: auto;
   width: 90%;
 }
- #pAbajo{
+
+#pAbajo {
   width: 60%;
   background-color: brown;
-} 
+}
 
-#asideAbajo{
+#asideAbajo {
   width: 40%;
   height: 80%;
-} 
+}
 
 p {
   margin: 2em;
