@@ -13,6 +13,7 @@ main {
 
 header {
   text-align: center;
+
   background-color: coral;
   height: 3em;
   border: 1px solid green;
@@ -22,7 +23,7 @@ header {
 nav {
   display: flex;
   width: 90%;
-  
+
   background-color: lightblue;
   border: 1px solid green;
   margin: 1em;
@@ -63,14 +64,13 @@ footer {
   margin: 1em;
 }
 
-table{
+table {
   margin: 0 auto;
 }
 
 #footerBody {
   display: block;
   background-color: darkolivegreen;
-
 }
 
 #inicio {
@@ -83,7 +83,6 @@ table{
 #secAside {
   width: 90%;
   height: 95%;
-
 }
 
 #navAside {
@@ -92,19 +91,24 @@ table{
 
 #mainAa {
   display: flex;
-
+  background-color: dodgerblue;
   margin: auto;
   width: 90%;
+
 }
 
 #pAbajo {
-  width: 60%;
+  width: 30%;
   background-color: brown;
+  padding: 0;
+  margin: 0%  ;
 }
 
 #asideAbajo {
   width: 40%;
   height: 80%;
+  align-self: right;
+  
 }
 
 p {
