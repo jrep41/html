@@ -63,6 +63,10 @@ footer {
   margin: 1em;
 }
 
+table{
+  margin: 0 auto;
+}
+
 #footerBody {
   display: block;
   background-color: darkolivegreen;
