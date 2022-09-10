@@ -81,12 +81,19 @@ table {
 }
 
 #secAside {
+  display: flex;
+
   width: 90%;
   height: 95%;
 }
 
 #navAside {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  list-style-type: none;
   height: 90%;
+  padding: 1em 0 1em 0;
 }
 
 #mainAa {
@@ -94,21 +101,19 @@ table {
   background-color: dodgerblue;
   margin: auto;
   width: 90%;
-
 }
 
 #pAbajo {
   width: 30%;
   background-color: brown;
   padding: 0;
-  margin: 0%  ;
+  margin: 0%;
 }
 
 #asideAbajo {
   width: 40%;
   height: 80%;
   align-self: right;
-  
 }
 
 p {
